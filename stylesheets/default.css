@@ -1,11 +1,12 @@
 html {
-  background-color: #9BFFEB;
+  background-color: #283E67;
   font-family: PT serif;
   color: #D687FF;
+  background-image:url("http://i.imgur.com/ySvBw8y.jpg");
 }
 
 .link:visited {
-  color: #ff0000;
+  color: white;
 }
 
 .link: {
@@ -13,24 +14,26 @@ html {
 }
 
 .link:hover {
-  color: #FF00CB ;
+  color: #ff0000 ;
 }
 
-footer {
-  background-color: #60FFBA;
+ footer {
+  color: white;
   position: fixed;
   bottom: 0;
   width: 100%;
   left: 0;
+
 }
 
 .Header {
   font-weight: bold;
-  color: #D687FF;
+  color: #23DB2A;
   font-size: 40px;
+
 }
 
-p {
+#title1 p {
   color: black;
 }
 
@@ -45,12 +48,13 @@ p {
 #title1 {
   position: absolute;
   border-style: dashed;
-  border-color: black;
+  border-color: white;
   border width: 2px;
   width: 50%;
   left: 30%;
   top: 20%;
   padding: 50px 50px;
+  background-color:#23DB2A ;
 }
 
 #blogpic {
@@ -60,3 +64,16 @@ p {
     z-index: -1;
 
 }
+
+h2 {
+  color: #283E67;
+}
+
+h3 {
+  color: #23DB2A;
+}
+
+h4 {
+  color: yellow;
+}
+
