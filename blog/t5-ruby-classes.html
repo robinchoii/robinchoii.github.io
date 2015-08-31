@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Blogging</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    </head>
+    <img id="blogpic" src=" https://avatars2.githubusercontent.com/u/10470932?v=3&amp;s=140" alt=""/>
+    <header>
+      <nav>
+          <a class="link" href="file:///Users/robinchoi/Desktop/DBC/robinchoii.github.io/index.html">Home</a>
+          <a class="link" href="file:///Users/robinchoi/Desktop/DBC/robinchoii.github.io/blog/Website.html">Blogs</a>
+          <a class="link" href="#">Facebook</a>
+          <a class="link" href="#">Twitter</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="Header">Week 1</h1>
+      <h3>Cultural</h3>
+      <h4>August 30, 2015</h4>
+
+      <section id="left">
+        <h4>  Quick Links</h4>
+        <p><a class="link" href="file:///Users/robinchoi/Desktop/DBC/robinchoii.github.io/index.html">Home</a></p>
+        <p><a class="link" href="#">  Blog Week 2</a></p>
+        <p><a class="link" href="#">  Blog Week 3</a></p>
+      </section>
+
+      <section id="title1">
+        <h2>My first blog!</h2>
+          <p>I've been learning a lot of ruby the past two weeks from arrays, hashes, and enumerables.  This week we went a little deeper and discovered classes.  Classes take strings, integers, methods, and floats and groups them into one so that you dont have to rewrite each string or method.  Making a class is like a shortcut for you to write less code and it also keesp your code more organized.  For example, let's say you are a teacher and you need to enter your students information. You can create a class called Students.
+
+class Students
+  def initialize(name, city, age)
+        @name = name
+        @city = city
+        @age = age
+    end
+end
+
+Anthing with "@" infront of it is called an instance variable. We can use those instance variables in other methods.
+
+class Students
+    def initialize(name, city, age)
+        @name = name
+        @city = city
+        @age = age
+    end
+
+    def greetings
+        "Hello! My name is #{@name} and I am #{@age} years old. I am from #{@city}, the best city in the world!"
+    end
+
+end
+
+
+robin = Students.new("Robin", "Seattle", 23)
+p robin.greetings
+  "Hello! My name is Robin and I am 23 years old. I am from Seattle, the best city in the world!"
+
+We can create new objects now with the Student class.
+          </p>
+
+      </section><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <footer>
+        <p>Created by Robin Choi<p>
+        <p>Contact @ <a class="link" href="#">robinchoii@gmail.com</a>
+      </footer>
+
+    </main>
+</html>
+
+
