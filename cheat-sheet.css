@@ -1,0 +1,39 @@
+html {
+  background-color: white;
+  background-image: url(http://devapps.biz/images/database-cloud.jpg);
+
+}
+
+
+.column-1 {
+  display: inline-block;
+  width: 50%;
+  background-color: gray;
+
+}
+
+.column-2 {
+  display: inline-block;
+  width: 50%;
+  float: right;
+
+}
+
+h1 {
+  font-size: 48px;
+}
+
+header {
+  background-image:  url(https://f.ch9.ms/thumbnail/89ca23db-8f7e-4226-ac7d-32699bdeb767.png);
+  height: 9em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 14px;
+}
+
+h3 {
+  color: blue;
+  }
