@@ -1,102 +1,200 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Robin's DBC Blogs</title>
-    <meta charset="UTF-8">
-    <link rel='stylesheet' type='text/css' href='stylesheets/default.css'>
-  </head>
-  <header>
-    <nav>
-      <a class='nav-link' href='website.html'>Home</a>
-      <a class='nav-link' href='www.facebook.com/robinchoii'>Facebook</a>
-      <a class='nav-link' href='www.twitter.com/robinchoi'>Twitter</a>
-      <a class='nav-link' href='www.github.com/robinchoii'>Github</a>
+<head>
+  <title>Robin's Portfolio</title>
+
+  <link rel="stylesheet" type="text/css" href="public/css/index.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- // <script src="public/js/index.js"></script> -->
+  <script src="public/js/index.js"></script>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation Section -->
+  <section id="navigation-bar">
+
+    <nav class="navbar navbar-fixed-top navigation-bar navbar-custom" role="navigation">
+      <a class="navbar-brand navbar-text" href="#page-top">Robin Choi</a>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-dropdown"> Menu <i class="fa fa-bars fa-custom"></i></button>
+
+      <div class="collapse navbar-collapse" id="menu-dropdown">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden"><a href="#page-top"></a></li>
+          <li class="page-scroll  navbar-text"><a href="#portfolio">Portfolio</a></li>
+          <li class="page-scroll  navbar-text"><a href="#about">About</a></li>
+          <li class="page-scroll  navbar-text"><a href="#connect">Connect</a></li>
+        </ul>
+      </div>
     </nav>
-  </header>
+  </section>
 
-  <body>
-    <h1>Journey through DBC</h1>
-    <section class='info'>
-      <h3>About me</h3>
-        <p>My name is Robin Choi and I am new student at Dev Bootcamp. Originally from Seattle, I made the decision to move out to San Francisco to learn some coding! After years of serving and managing my parent's restaurant, Stone Korean Restaurant, I found the courage to go back to school and learn some code!<p>
-    </section>
+  <!-- Heading Section -->
+  <section id="heading">
+    <div class="container">
+      <div class="row">
 
+        <div class="col-lg-12 profile">
+          <img src="public/img/profile.jpg" class="img-responsive img-circle center-block" height="300px" width="300px">
+          <div class="profile-info text-center">
+            <h1>Robin Choi</h1>
+            <!-- <hr></hr> -->
+            <h3>Web Developer</h3>
+            <p>First solve the problem, then right the code.  I am developer who loves to play sports, eat delicious food, and learn new technologies. </p>
+          </div>
+        </div>
+      </div> <!-- row close -->
+    </div> <!-- container -->
+  </section> <!-- heading close -->
 
-    <section class='row'>
-      <h2> Click a Blog!</h3>
-      <div class ='left'>
-        <h3><a class='link' href="blog/c1-chefs-kitchen.html">Chef's Kitchen</a></h3>
-      </div>
-      <div class='middle'>
-        <h3><a class="link" href="blog/c3-thinking-style.html">Thinking Style</a></h3>
-      </div>
-      <div class='right'>
-        <h3><a class="link" href="blog/c4-tech-issues.html">Tech Issues</a></h3>
-      </div>
-    </section>
+        <!-- grid style layout of projects -->
+        <!-- <div class="col-md-4 portfolio-text" id="project1">
+          <h3 class="text-center">Pick Up</h3>
+          <a href='https://github.com/robinchoii/PickUp'><img class="img-responsive img-rounded" src="public/img/PickUp.png"></a>
+        </div>
 
-    <section class='row'>
-      <div class ='left'>
-        <h3><a class="link" href="blog/c5-feedback.html">Feedback</a></h3>
-      </div>
-      <div class='middle'>
-        <h3><a class="link" href="blog/c6-stereotype-threat.html">Stereotype Threat</a></h3>
-      </div>
-      <div class='right'>
-        <h3><a class="link" href="blog/c7-values.html">Values</a></h3>
-      </div>
-    </section>
+        <div class="col-md-4 portfolio-text" id="project2">
+          <h3 class="text-center">Flapper News</h3>
+          <a href='#'><img class="img-responsive img-rounded" src="public/img/FlapperNews.png"></a>
+        </div>
 
-    <section class='row'>
-      <div class ='left'>
-        <h3><a class="link" href="blog/c8-conflict.html">Conflict</a></h3>
-      </div>
-      <div class='middle'>
-        <h3><a class="link" href="blog/t1-git-blog.html">Git Blog</a></h3>
-      </div>
-      <div class='right'>
-        <h3><a class="link" href="blog/t2-css-design.html">CSS Design</a></h3>
-      </div>
-    </section>
+        <div class="col-md-4 portfolio-text" id="project3">
+          <h3 class="text-center">Best Sellers</h3>
+          <a href='https://github.com/robinchoii/ecommerce'><img class="img-responsive img-rounded" src="public/img/BestSellers.png"></a>
+        </div> -->
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
 
-    <section class='row'>
-      <div class ='left'>
-        <h3><a class="link" href="blog/t3-arrays-hashes.html">Arrays &amp; Hashes</a></h3>
+      <div class="portfolio-header">
+        <h1 class="text-center portfolio-header">Portfolio</h1>
       </div>
-      <div class='middle'>
-        <h3><a class="link" href="blog/t4-enumerable-methods.html">Enumerable Methods</a></h3>
-      </div>
-      <div class='right'>
-        <h3><a class="link" href="blog/t5-ruby-classes.html">Ruby Classes</a></h3>
-      </div>
-    </section>
+      <!-- project 1 -->
+      <div class="row">
+        <div class="col-md-6">
+          <a href='https://github.com/robinchoii/PickUp' class="projects"><img class="img-responsive img-thumbnail" src="public/img/PickUp.png"></a>
+        </div>
 
-    <section class='row'>
-      <div class ='left'>
-        <h3><a class="link" href="blog/t6-oop-concepts.html">OOP Concepts</a></h3>
+        <div class="col-md-6 portfolio-text text-right">
+          <a href='https://github.com/robinchoii/PickUp'><h3 class='project-title'>Pick Up</h3></a>
+          <p> A web application to connect people by playing sports. From one on one to groups activities, PickUp finds events nearby based off your location using the Google Maps API.  Primarily built using Ruby on Rails and Javascript with PostgreSQL on the backend. jQuery and AJAX to make the site dynamic and interactive. </p>
+        </div>
       </div>
-      <div class='middle'>
-        <h3><a class="link" href="blog/t7-JavaScript.html">JavaScript</a></h3>
-      </div>
-      <div class='right'>
-        <h3><a class="link" href="blog/t8-tech.html">Tech</a></h3>
-      </div>
-    </section>
+      <br><br>
 
-     <section class='row'>
-      <div class ='left'>
-        <h3><a class="link" href="blog/t9-review.html">Review</a></h3>
+      <!-- project 2 -->
+      <div class='row'>
+        <div class="col-md-6">
+          <a href='https://github.com/robinchoii/passion-flapper-news' class='projects'><img class="img-responsive img-thumbnail" src="public/img/FlapperNews.jpg"></a>
+        </div>
+
+        <div class="col-md-6 portfolio-text text-right">
+          <a href='https://github.com/robinchoii/passion-flapper-news'><h3 class='project-title'>Flapper News</h3></a>
+          <p> Flapper News is a single page application to post interesting articles we find around the internet.  This was a quick project for the purpose of learning AngularJs and the basic fundamentals to build powerful front-end applications. I learned more about directives, two-way data binding, controllers and much more. </p>
+        </div>
       </div>
-      <div class='middle'>
-        <h3><a class="link" href="blog/c9-questions.html">Questions</a></h3>
+      <br><br>
+
+      <!-- project 3  -->
+      <div class='row'>
+        <div class="col-md-6">
+          <a href='https://github.com/robinchoii/ecommerce' class='projects'><img class="img-responsive img-thumbnail" src="public/img/BestSellers.png"></a>
+        </div>
+
+        <div class="col-md-6 portfolio-text text-right">
+          <a href='https://github.com/robinchoii/ecommerce'><h3 class='project-title'>Shop n Stop</h3></a>
+          <p>Shop n Stop is an e-commerce website I created for buying products using the Stripe API.  I have implemented Elasticsearch to help you find your items as well a category section to help narrow down your search.  Anyone can sign up for free with and email address and start shopping.  Primarily built with node.js, HTML5, CSS3 and jQuery connected to monogoDB database.  </p>
+        </div>
+
+      </div> <!-- row close -->
+    </div> <!-- container close -->
+  </section> <!-- portfolio close -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-text col-lg-12">
+          <h1 class="about-header  text-center "> About </h1>
+
+          <div class="about-text col-md-6">
+            <p>Proficient in Ruby on Rails and MEAN stack to build web applications from the scratch. Knowledgeable in relational and non relational databases to connect to the front-end. Experienced in MVC frameworks, object oriented programming, agile development and testing. Loves to take on new challenges and embraces the confusion.</p>
+          </div>
+
+          <div class="about-text col-md-6">
+            <p>I am a former restaurant manager who helped start a family restaurant which is now known as the best Korean food in the greater Seattle area.  Now a recent graudated web developer out of San Francisco's top coding bootcamp, Dev Bootcamp.</p>
+            <p>If you want to code together or work on a project, find me below and I will treat you out for coffee! </p>
+          </div>
+        </div> <!-- about-text close -->
+      </div> <!-- row close -->
+    </div> <!-- container close -->
+  </section><!-- section close -->
+
+  <!-- Connect Section -->
+  <section id="connect">
+    <div class="container">
+      <div class="row">
+        <div class="connect-text text-center col-lg-12">
+          <h1 class="connect-header"> Connect</h1>
+          <a href="https://twitter.com/robinchoi" class="social btn fa fa-twitter"></a>
+          <a href="https://linkedin.com/in/robinchoii" class="social btn btn-lrg fa fa-linkedin"></a>
+          <a href="https://github.com/robinchoii" class="social btn fa fa-github"></a>
+        </div> <!-- about-text close -->
+      </div> <!-- row close -->
+      <br><br>
+      <div class='row'>
+        <form class="contact form-horizontal col-md-8 col-md-offset-2" role="form" method="post" action="index.php">
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-sm-2 control-label">Message</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" rows="4" name="message"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+            </div>
+          </div>
+        </form>
       </div>
-       <div class='right'>
-        <h3><a class="link" href="cheat-sheet.html">Cheat Sheet</a></h3>
-      </div>
+    </div> <!-- container close -->
+  </section><!-- connect close -->
+</body>
 
-    </section>
+<footer>
+  <span> Copyright &copy;  2016 Robin Choi</span>
+</footer>
 
-
-
-  </body>
 </html>
