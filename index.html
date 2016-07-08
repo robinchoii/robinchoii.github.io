@@ -6,10 +6,11 @@
   <link rel="stylesheet" type="text/css" href="public/css/index.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <!-- // <script src="public/js/index.js"></script> -->
-  <script src="public/js/index.js"></script>
 
   <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="public/js/index.js"></script>
+  <script src="public/js/formspree.js"></script>
 
 
   <!-- Latest compiled and minified CSS -->
@@ -35,9 +36,9 @@
       <div class="collapse navbar-collapse" id="menu-dropdown">
         <ul class="nav navbar-nav navbar-right">
           <li class="hidden"><a href="#page-top"></a></li>
-          <li class="page-scroll  navbar-text"><a href="#portfolio">Portfolio</a></li>
-          <li class="page-scroll  navbar-text"><a href="#about">About</a></li>
-          <li class="page-scroll  navbar-text"><a href="#connect">Connect</a></li>
+          <li class="navbar-text"><a href="#portfolio">Portfolio</a></li>
+          <li class="navbar-text"><a href="#about">About</a></li>
+          <li class="navbar-text"><a href="#connect">Connect</a></li>
         </ul>
       </div>
     </nav>
@@ -90,7 +91,7 @@
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
-          <a href='https://github.com/robinchoii/PickUp'><h3 class='project-title'>Pick Up</h3></a>
+          <h3 class='project-title'><a href='https://github.com/robinchoii/PickUp'>Pick Up</a></h3>
           <p> A web application to connect people by playing sports. From one on one to groups activities, PickUp finds events nearby based off your location using the Google Maps API.  Primarily built using Ruby on Rails and Javascript with PostgreSQL on the backend. jQuery and AJAX to make the site dynamic and interactive. </p>
         </div>
       </div>
@@ -103,7 +104,7 @@
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
-          <a href='https://github.com/robinchoii/passion-flapper-news'><h3 class='project-title'>Flapper News</h3></a>
+          <h3 class='project-title'><a href='https://github.com/robinchoii/passion-flapper-news'>Flapper News</a></h3>
           <p> Flapper News is a single page application to post interesting articles we find around the internet.  This was a quick project for the purpose of learning AngularJs and the basic fundamentals to build powerful front-end applications. I learned more about directives, two-way data binding, controllers and much more. </p>
         </div>
       </div>
@@ -116,7 +117,7 @@
         </div>
 
         <div class="col-md-6 portfolio-text text-right">
-          <a href='https://github.com/robinchoii/ecommerce'><h3 class='project-title'>Shop n Stop</h3></a>
+          <h3 class='project-title'><a href='https://github.com/robinchoii/ecommerce'>Shop n Stop</a></h3>
           <p>Shop n Stop is an e-commerce website I created for buying products using the Stripe API.  I have implemented Elasticsearch to help you find your items as well a category section to help narrow down your search.  Anyone can sign up for free with and email address and start shopping.  Primarily built with node.js, HTML5, CSS3 and jQuery connected to monogoDB database.  </p>
         </div>
 
@@ -159,7 +160,8 @@
       <br><br>
 
       <div class='row'>
-        <form class="contact form-horizontal col-md-8 col-md-offset-2" role="form" method="post" action="https://formspree.io/robinchoii@gmail.com">
+        <!-- formspree form -->
+        <form action="https://formspree.io/robinchoii@gmail.com" class="contactForm form-horizontal col-md-8 col-md-offset-2" role="form" method="POST" >
           <div class="form-group">
             <label for="name" class="col-sm-2 control-label">Name</label>
             <div class="col-sm-10">

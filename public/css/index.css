@@ -35,6 +35,16 @@
   .profile-info {
     font-family: georgia;
   }
+    .profile-info p {
+      font-size: 16px;
+    }
+    .profile-info h1 {
+      font-size: 36px;
+    }
+    .profile-info h3 {
+      font-size: 20px;
+    }
+
 #portfolio {
   padding: 100px;
   background-color: #38618C;
@@ -49,13 +59,16 @@
     /*color:#FAF3DD;*/
     font-size: 18px;
     color:white;
-
   }
+    .portfolio-text h3 a {
+      color: #0D1F2D;
+    }
   .project-title {
     text-decoration: underline;
     font-size: 30px;
     color: #FAF3DD;
   }
+
 
 #about {
   padding: 100px;
@@ -85,7 +98,7 @@
   .connect-text a {
     color: #FAF3DD;
   }
-  .contact {
+  .contactForm {
     border-style: solid;
     border-color: black;
     padding: 40px;
