@@ -109,18 +109,21 @@
 
 #question {
   position: fixed;
-  /*height: 300px;*/
   top: 100px;
   float:right;
-  background: grey;
+  background: white;
   border-radius: 0px 5px 5px 0px;
   /*display: inline-block;*/
-  margin-left: -5px;
+  margin-left: -10px;
+  border: 2px solid black;
 }
 .popout {
   display: inline-block;
   /*transform: rotate(90deg);*/
 }
+  #popout-header {
+    color: green;
+  }
 #popoutbutton {
   /*position: fixed;*/
   /*top: 120px;*/
@@ -128,6 +131,7 @@
 }
 ul {
   display: none;
+  width:400px;
   /*list-style-image: url('../img/arrow.png')*/
   list-style:none;
 }
@@ -142,11 +146,25 @@ li:before {
     left: -1em;
     top: 1.5em;
     position: relative;
+    /*transform: rotate(90deg);*/
 }
-
 .answer {
   display: none;
 }
+
+#tacklemore {
+  /*display: none;*/
+}
+li a {
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+}
+li p {
+  font-size: .85em;
+}
+
+
 footer {
   background-color:#FAF3DD;
 }
