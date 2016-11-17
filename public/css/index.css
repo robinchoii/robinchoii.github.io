@@ -109,60 +109,53 @@
 
 #question {
   position: fixed;
-  top: 100px;
+  top: 80px;
   float:right;
   background: white;
   border-radius: 0px 5px 5px 0px;
-  /*display: inline-block;*/
   margin-left: -10px;
   border: 2px solid black;
 }
 .popout {
   display: inline-block;
-  /*transform: rotate(90deg);*/
 }
   #popout-header {
-    color: green;
+    color: black;
   }
-#popoutbutton {
-  /*position: fixed;*/
-  /*top: 120px;*/
-  display: inline-block;
-}
-ul {
-  display: none;
-  width:400px;
-  /*list-style-image: url('../img/arrow.png')*/
-  list-style:none;
-}
-li:before {
-    content: "";
-    border-color: transparent #111;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 1.5em;
-    position: relative;
-    /*transform: rotate(90deg);*/
-}
-.answer {
-  display: none;
-}
+  #popoutbutton {
+    display: inline-block;
+  }
+  .popout ul {
+    display: none;
+    width:325px;
+    /*height:500px;*/
+    list-style:none;
+  }
+  .popout li:before {
+      content: "";
+      border-color: transparent #111;
+      border-style: solid;
+      border-width: 0.35em 0 0.35em 0.45em;
+      display: block;
+      height: 0;
+      width: 0;
+      left: -1em;
+      top: 1.5em;
+      position: relative;
 
-#tacklemore {
-  /*display: none;*/
-}
-li a {
-  text-decoration: none;
-  color:black;
-  cursor: pointer;
-}
-li p {
-  font-size: .85em;
-}
+  }
+  .popout .answer {
+    display: none;
+  }
+
+  .popout li a {
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+  }
+  .popout li p {
+    font-size: .85em;
+  }
 
 
 footer {
