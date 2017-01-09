@@ -59,9 +59,10 @@
   }
   .portfolio-text {
     /*color:#FAF3DD;*/
-    font-size: 18px;
+    font-size: 16px;
     color:white;
     line-height: 200%;
+    font-weight: 100;
   }
     .portfolio-text h3 a {
       color: #0D1F2D;
