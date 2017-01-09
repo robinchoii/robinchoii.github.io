@@ -61,9 +61,16 @@
     /*color:#FAF3DD;*/
     font-size: 18px;
     color:white;
+    line-height: 200%;
   }
     .portfolio-text h3 a {
       color: #0D1F2D;
+
+    }
+    .portfolio-text a {
+      color: white;
+      text-decoration: underline;
+
     }
   .project-title {
     text-decoration: underline;
