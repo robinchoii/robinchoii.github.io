@@ -47,7 +47,7 @@
     }
 
 #projects {
-  padding: 100px;
+  padding: 50px;
   background-color: #38618C;
   font-family: georgia;
   /*position: relative;*/
@@ -56,6 +56,7 @@
     color:#FAF3DD;
     font-size: 40px;
     font-style: italic;
+    margin-bottom: 50px;
   }
   .projects-text {
     /*color:#FAF3DD;*/
@@ -81,7 +82,7 @@
 
 
 #about {
-  padding: 100px;
+  padding: 50px;
   background-color: #FAF3DD;
   font-family: georgia;
  }
@@ -95,7 +96,7 @@
   }
 
 #connect {
-  padding: 100px;
+  padding: 50px;
   background-color: #38618C;
   font-family: georgia;
 }
